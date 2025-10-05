@@ -1,4 +1,5 @@
 import React from 'react'
+import profileImage from '../assets/med.jpeg'
 import { motion } from 'framer-motion'
 import { TypeAnimation } from 'react-type-animation'
 import { 
@@ -272,7 +273,7 @@ const Hero = () => {
                     initial={{ scale: 0.8, opacity: 0 }}
                     animate={{ scale: 1, opacity: 1 }}
                     transition={{ duration: 0.8, delay: 0.6 }}
-                    src="med.jpeg"
+                    src={profileImage}
                     alt="Mohamed Laabouli"
                     className="relative w-72 h-72 lg:w-80 lg:h-80 object-cover rounded-2xl shadow-2xl border-2 border-white/20 group-hover:scale-[1.02] transition-transform duration-500"
                   />
