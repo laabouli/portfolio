@@ -278,16 +278,7 @@ const Hero = () => {
                     className="relative w-72 h-72 lg:w-80 lg:h-80 object-cover rounded-2xl shadow-2xl border-2 border-white/20 group-hover:scale-[1.02] transition-transform duration-500"
                   />
                   
-                  {/* Enhanced Status Indicator */}
-                  <motion.div
-                    initial={{ opacity: 0, scale: 0 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.6, delay: 1 }}
-                    className="absolute -bottom-6 -right-6 bg-gradient-to-r from-emerald-400 to-green-500 text-white px-6 py-3 rounded-2xl text-sm font-bold shadow-2xl flex items-center backdrop-blur-sm border border-white/20"
-                  >
-                    <div className="w-3 h-3 bg-white rounded-full mr-3 animate-pulse shadow-lg"></div>
-                    Available for Hire
-                  </motion.div>
+                  {/* Status badge removed */}
                 </div>
 
 
