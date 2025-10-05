@@ -174,23 +174,7 @@ const Portfolio = () => {
           ))}
         </div>
 
-        {/* CTA Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
-          className="text-center mt-16"
-        >
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">
-            Interested in working together?
-          </h3>
-          <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
-            I'm always excited to take on new challenges and help bring your ideas to life.
-          </p>
-          <button className="btn-primary">
-            Start Your Project
-          </button>
-        </motion.div>
+        {/* CTA Section removed */}
       </div>
     </section>
   )

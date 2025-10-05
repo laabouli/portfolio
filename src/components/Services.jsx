@@ -149,16 +149,7 @@ const Services = () => {
                   ))}
                 </ul>
 
-                {/* CTA Button */}
-                <motion.button
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-                  transition={{ duration: 0.6, delay: 0.8 + index * 0.1 }}
-                  className={`bg-gradient-to-r ${service.gradient} text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 group inline-flex items-center`}
-                >
-                  <span>Learn More</span>
-                  <FaArrowRight className="ml-2 group-hover:translate-x-1 transition-transform duration-300" size={14} />
-                </motion.button>
+                {/* CTA button removed */}
               </div>
             </motion.div>
           ))}

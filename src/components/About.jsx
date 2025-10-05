@@ -120,20 +120,7 @@ const About = () => {
               ))}
             </div>
 
-            {/* CTA */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-              transition={{ duration: 0.6, delay: 0.8 }}
-              className="flex flex-col sm:flex-row gap-4"
-            >
-              <button className="btn-primary">
-                Download Resume
-              </button>
-              <button className="border-2 border-primary-600 text-primary-600 px-6 py-3 rounded-full font-semibold hover:bg-primary-600 hover:text-white transition-all duration-300">
-                View Certifications
-              </button>
-            </motion.div>
+            {/* CTA removed as requested */}
           </motion.div>
 
           {/* Right Content - Skills */}
