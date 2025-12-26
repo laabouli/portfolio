@@ -6,8 +6,6 @@ import {
   FaServer, 
   FaMobile, 
   FaRobot,
-  FaMapMarkerAlt,
-  FaBirthdayCake,
   FaClock,
   FaCheckCircle
 } from 'react-icons/fa'
@@ -46,7 +44,6 @@ const About = () => {
   ]
 
   const personalInfo = [
-    { icon: FaMapMarkerAlt, label: 'Location', value: 'Morocco' },
     { icon: FaClock, label: 'Experience', value: '5+ years' },
     { icon: FaCheckCircle, label: 'Status', value: 'Available for projects' }
   ]
@@ -85,8 +82,8 @@ const About = () => {
               <h3 className="text-2xl font-bold text-gray-900 mb-4">My Journey</h3>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  I'm Mohamed Laabouli, a 25-year-old software engineer with 5 years of experience 
-                  in creating innovative digital solutions. Based in Morocco, I specialize in 
+                  I'm Mohamed, a 25-year-old software engineer with 5 years of experience 
+                  in creating innovative digital solutions. I specialize in 
                   full-stack development, mobile applications, automation systems, and cutting-edge 
                   AI technologies.
                 </p>

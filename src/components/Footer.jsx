@@ -14,7 +14,7 @@ const Footer = () => {
         >
           <div className="text-center md:text-left mb-4 md:mb-0">
             <p className="text-gray-400">
-              &copy; 2024 Mohamed Laabouli. All rights reserved.
+              &copy; 2024 Mohamed. All rights reserved.
             </p>
           </div>
           

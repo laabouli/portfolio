@@ -2,13 +2,6 @@ import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { 
-  FaMapMarkerAlt, 
-  FaEnvelope, 
-  FaPhone, 
-  FaLinkedin, 
-  FaGithub, 
-  FaTwitter, 
-  FaInstagram,
   FaPaperPlane
 } from 'react-icons/fa'
 
@@ -46,30 +39,9 @@ const Contact = () => {
     }, 2000)
   }
 
-  const contactInfo = [
-    {
-      icon: FaMapMarkerAlt,
-      title: 'Location',
-      details: 'Morocco',
-      gradient: 'from-blue-500 to-cyan-500'
-    },
-    {
-      icon: FaEnvelope,
-      title: 'Email',
-      details: 'mohammedlaabouli@gmail.com',
-      gradient: 'from-purple-500 to-pink-500'
-    },
-    {
-      icon: FaPhone,
-      title: 'Phone',
-      details: '+212 606286391',
-      gradient: 'from-green-500 to-emerald-500'
-    }
-  ]
+  const contactInfo = []
 
-  const socialLinks = [
-    { icon: FaLinkedin, href: 'https://www.linkedin.com/in/mohamed-laabouli-66b57b1bb/', color: 'hover:text-blue-600' }
-  ]
+  const socialLinks = []
 
   return (
     <section id="contact" className="section-padding bg-gray-900 text-white relative overflow-hidden">
@@ -112,48 +84,6 @@ const Contact = () => {
                 feel free to reach out!
               </p>
             </div>
-
-            {/* Contact Items */}
-            <div className="space-y-6">
-              {contactInfo.map((info, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-                  transition={{ duration: 0.6, delay: 0.4 + index * 0.1 }}
-                  className="flex items-center space-x-4"
-                >
-                  <div className={`w-12 h-12 bg-gradient-to-r ${info.gradient} rounded-full flex items-center justify-center`}>
-                    <info.icon className="text-white" size={20} />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold">{info.title}</h4>
-                    <p className="text-gray-300">{info.details}</p>
-                  </div>
-                </motion.div>
-              ))}
-            </div>
-
-            {/* Social Links */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-              transition={{ duration: 0.6, delay: 0.8 }}
-              className="pt-8"
-            >
-              <h4 className="font-semibold mb-4">Follow me on</h4>
-              <div className="flex space-x-4">
-                {socialLinks.map((social, index) => (
-                  <a
-                    key={index}
-                    href={social.href}
-                    className={`w-12 h-12 bg-white/10 rounded-full flex items-center justify-center text-white ${social.color} transition-all duration-300 hover:scale-110 hover:bg-white/20`}
-                  >
-                    <social.icon size={20} />
-                  </a>
-                ))}
-              </div>
-            </motion.div>
           </motion.div>
 
           {/* Contact Form */}

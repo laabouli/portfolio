@@ -1,4 +1,4 @@
-# Mohamed Laabouli - React Portfolio
+# Mohamed   - React Portfolio
 
 A modern, professional React portfolio built with cutting-edge technologies and best practices.
 
@@ -105,7 +105,7 @@ The build creates static files in the `dist` folder that can be deployed anywher
 ## 📧 Contact Information
 
 **Current placeholder info (update these):**
-- Email: mohamed.laabouli@email.com
+- Email: mohamed. @email.com
 - Phone: +212 XXX XXX XXX
 - Location: Morocco
 

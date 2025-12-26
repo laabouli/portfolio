@@ -68,8 +68,7 @@ const Navbar = () => {
               }}
               className="text-2xl font-black transition-colors duration-300 text-white"
             >
-              <span className="bg-gradient-to-r from-primary-400 to-secondary-400 bg-clip-text text-transparent">Mohamed</span>{' '}
-              <span className="text-white">Laabouli</span>
+              <span className="bg-gradient-to-r from-primary-400 to-secondary-400 bg-clip-text text-transparent">Mohamed</span>
             </a>
           </motion.div>
 

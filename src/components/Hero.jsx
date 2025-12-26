@@ -9,9 +9,7 @@ import {
   FaMobile, 
   FaRobot,
   FaRocket,
-  FaEnvelope,
-  FaGithub,
-  FaLinkedin 
+  FaEnvelope
 } from 'react-icons/fa'
 
 const Hero = () => {
@@ -89,7 +87,7 @@ const Hero = () => {
                 </span>
               </h1>
               <div className="text-2xl lg:text-3xl font-bold text-gray-300 mt-4">
-                I'm <span className="text-white">Mohamed Laabouli</span>
+                I'm <span className="text-white">Mohamed</span>
               </div>
             </motion.div>
 
@@ -180,24 +178,6 @@ const Hero = () => {
               </button>
             </motion.div>
 
-            {/* Social Links */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.8 }}
-              className="flex space-x-6 pt-8"
-            >
-              <motion.a
-                href="https://www.linkedin.com/in/mohamed-laabouli-66b57b1bb/"
-                target="_blank"
-                rel="noopener noreferrer"
-                whileHover={{ scale: 1.2, y: -5 }}
-                whileTap={{ scale: 0.9 }}
-                className="text-gray-400 hover:text-primary-400 transition-all duration-300 text-2xl"
-              >
-                <FaLinkedin />
-              </motion.a>
-            </motion.div>
           </motion.div>
 
           {/* Right Content - Profile Image */}
@@ -274,7 +254,7 @@ const Hero = () => {
                     animate={{ scale: 1, opacity: 1 }}
                     transition={{ duration: 0.8, delay: 0.6 }}
                     src={profileImage}
-                    alt="Mohamed Laabouli"
+                    alt="Mohamed"
                     className="relative w-72 h-72 lg:w-80 lg:h-80 object-cover rounded-2xl shadow-2xl border-2 border-white/20 group-hover:scale-[1.02] transition-transform duration-500"
                   />
                   

@@ -1,7 +1,7 @@
 {
-  "name": "mohamed-laabouli-portfolio",
+  "name": "mohamed- -portfolio",
   "version": "1.0.0",
-  "description": "Professional Portfolio for Mohamed Laabouli - Software Engineer & Full Stack Developer",
+  "description": "Professional Portfolio for Mohamed - Software Engineer & Full Stack Developer",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
@@ -39,7 +39,7 @@
     "freelancer",
     "morocco"
   ],
-  "author": "Mohamed Laabouli",
+  "author": "Mohamed",
   "license": "MIT"
 }
 
